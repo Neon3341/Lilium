@@ -1,0 +1,29 @@
+{
+  "name": "lilium",
+  "productName": "Lilium Browser",
+  "version": "0.1.0",
+  "description": "The Lilium Browser built on Electron",
+  "main": "./out/main/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "str": "electron .",
+    "start": "electron-vite preview",
+    "dev": "electron-vite dev",
+    "build": "electron-vite build"
+  },
+  "author": "Tregubov Egor",
+  "license": "GPL-3.0",
+  "private": true,
+  "devDependencies": {
+    "electron": "^33.2.1",
+    "electron-vite": "^2.3.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "events": "^3.3.0",
+    "prop-types": "^15.8.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sass": "^1.83.0"
+  }
+}
